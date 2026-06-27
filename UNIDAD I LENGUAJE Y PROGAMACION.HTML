@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNIDAD 1 LENGUAJE Y PROGRAMACION IV</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="container">
+        <section id="dashboard">
+            <h2>Ejercicio 1: Formato de Texto, Tablas y Enlaces</h2>
+            <nav class="intern-nav">
+                <a href="#historial">Ver Historial</a> | 
+                <a href="#plan-evaluacion">Ver Plan de Evaluación</a>
+            </nav>
+            <table class="academic-table">
+                <thead>
+                    <tr>
+                        <th>Materia</th>
+                        <th>Profesor</th>
+                        <th>Nota Parcial 1</th>
+                        <th>Nota Parcial 2</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Programación Web</td>
+                        <td>Ing. Pedro Patro</td>
+                        <td>20</td>
+                        <td>19</td>
+                    </tr>
+                    <tr>
+                        <td>Bases de Datos II</td>
+                        <td>Ing. Yelitza Laya</td>
+                        <td>15</td>
+                        <td>16</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">Redes de Computadoras</td>
+                        <td>Bachiller Enrique Brito</td>
+                        <td>19</td>
+                        <td>18</td>
+                    </tr>
+                    <tr>
+                        <td>TSU Luis Torres</td>
+                        <td>16</td>
+                        <td>15</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3" class="text-right"><strong>Promedio Final:</strong></td>
+                        <td><strong>17</strong></td>
+                    </tr>
+                </tfoot>
+            </table>
+
+            <div id="historial" class="section-box">
+    <h3>Historial Académico</h3>
+    <p>Aquí se muestra el registro histórico de los semestres anteriores (1ro al 6to).</p>
+
+    <h2>1er Semestre</h2>
+    <table class="academic-table">
+        <thead>
+            <tr>
+                <th>Materia</th>
+                <th>Profesor</th>
+                <th>Nota Parcial 1</th>
+                <th>Nota Parcial 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Introducción a la Informática</td>
+                <td>Bachiller Enrique Brito</td>
+                <td>16</td>
+                <td>17</td>
+            </tr>
+            <tr>
+                <td>Matemática I</td>
+                <td>Ing. Yelitza Laya</td>
+                <td>14</td>
+                <td>15</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr class="promedio-row">
+                <td colspan="3" class="text-right"><strong>Promedio Semestral:</strong></td>
+                <td><strong>15.5</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <h2>2do Semestre</h2>
+    <table class="academic-table">
+        <thead>
+            <tr>
+                <th>Materia</th>
+                <th>Profesor</th>
+                <th>Nota Parcial 1</th>
+                <th>Nota Parcial 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Programación Estructurada</td>
+                <td>Ing. Pedro Patro</td>
+                <td>17</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>Matemática II</td>
+                <td>Ing. Yelitza Laya</td>
+                <td>15</td>
+                <td>14</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr class="promedio-row">
+                <td colspan="3" class="text-right"><strong>Promedio Semestral:</strong></td>
+                <td><strong>16</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <h2>3er Semestre</h2>
+    <table class="academic-table">
+        <thead>
+            <tr>
+                <th>Materia</th>
+                <th>Profesor</th>
+                <th>Nota Parcial 1</th>
+                <th>Nota Parcial 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Estructuras de Datos</td>
+                <td>Ing. Pedro Patro</td>
+                <td>19</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>Sistemas Operativos</td>
+                <td>TSU Luis Torres</td>
+                <td>15</td>
+                <td>17</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr class="promedio-row">
+                <td colspan="3" class="text-right"><strong>Promedio Semestral:</strong></td>
+                <td><strong>17.2</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <h2>4to Semestre</h2>
+    <table class="academic-table">
+        <thead>
+            <tr>
+                <th>Materia</th>
+                <th>Profesor</th>
+                <th>Nota Parcial 1</th>
+                <th>Nota Parcial 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Programación Web</td>
+                <td>Ing. Pedro Patro</td>
+                <td>20</td>
+                <td>19</td>
+            </tr>
+            <tr>
+                <td>Bases de Datos II</td>
+                <td>Ing. Yelitza Laya</td>
+                <td>15</td>
+                <td>16</td>
+            </tr>
+            <tr>
+                <td>Redes de Computadoras</td>
+                <td>Bachiller Enrique Brito</td>
+                <td>19</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>Sistemas Operativos II</td>
+                <td>TSU Luis Torres</td>
+                <td>16</td>
+                <td>15</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr class="promedio-row">
+                <td colspan="3" class="text-right"><strong>Promedio Final:</strong></td>
+                <td><strong>17</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <h2>5to Semestre</h2>
+    <table class="academic-table">
+        <thead>
+            <tr>
+                <th>Materia</th>
+                <th>Profesor</th>
+                <th>Nota Parcial 1</th>
+                <th>Nota Parcial 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ingeniería de Software</td>
+                <td>Ing. Yelitza Laya</td>
+                <td>18</td>
+                <td>17</td>
+            </tr>
+            <tr>
+                <td>Diseño de Interfaces Web</td>
+                <td>Bachiller Enrique Brito</td>
+                <td>16</td>
+                <td>16</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr class="promedio-row">
+                <td colspan="3" class="text-right"><strong>Promedio Semestral:</strong></td>
+                <td><strong>16.7</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <h2>6to Semestre</h2>
+    <table class="academic-table">
+        <thead>
+            <tr>
+                <th>Materia</th>
+                <th>Profesor</th>
+                <th>Nota Parcial 1</th>
+                <th>Nota Parcial 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Proyecto de grado</td>
+                <td>Ing. Yelitza Laya</td>
+                <td>20</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>Proyecto de grado</td>
+                <td>TSU Luis Torres</td>
+                <td>18</td>
+                <td>17</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr class="promedio-row">
+                <td colspan="3" class="text-right"><strong>Promedio Semestral:</strong></td>
+                <td><strong>18.7</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+
+</div> 
+            </div>
+            <div id="plan-evaluacion" class="section-box">
+                <h3>Plan de Evaluación</h3>
+                <p>Detalle de evaluaciones: Proyecto Final (40%), Exámenes (40%), Talleres (20%).</p>
+                <p> <b>TEMA: HTML, CSS y JAVA SCRIPT</b>
+            </div>
+        </section>
+        <hr>
+
+        <section id="registro">
+            <h2>Ejercicio 2: Registro de Proyectos de Grado</h2>
+            
+            <form action="#" method="POST" class="project-form">
+                
+                <div class="form-group">
+                    <label for="nombre_proyecto">Nombre del Proyecto *</label>
+                    <input type="text" id="nombre_proyecto" name="nombre_proyecto" required placeholder="Ej. Sistema de Gestión IUTEPAL">
+                </div>
+
+                <div class="form-group">
+                    <label for="cedula">Cédula * (Solo números, 7-8 dígitos)</label>
+                    <input   type="text" id="cedula" name="cedula" placeholder="Ej. V1234567" pattern="^[Vv]\d{7,8}$" required
+>
+                </div>
+
+                <div class="form-group">
+                    <label for="correo">Correo Institucional  *</label>
+                    <input type="email" id="correo" name="correo" required placeholder="jose.informatica@iutepal-maracay.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="semestre">Semestre *</label>
+                    <input type="number" id="semestre" name="semestre" min="1" max="6" required placeholder="Del 1 al 6">
+                </div>
+
+                <div class="form-group">
+                    <label for="resumen">Resumen del Proyecto *</label>
+                    <textarea id="resumen" name="resumen" rows="4" required placeholder="Escribe un breve resumen..."></textarea>
+                </div>
+
+                <button type="submit" class="btn-submit">Enviar Registro</button>
+            </form>
+        </section>
+    </main>
+
+</body>
+</html>
